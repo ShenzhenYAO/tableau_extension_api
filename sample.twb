@@ -2945,7 +2945,7 @@
             <column-instance column='[Ship Date]' derivation='Year' name='[yr:Ship Date:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[Sample - Superstore].[none:State:nk]'>
-            <groupfilter function='member' level='[none:State:nk]' member='&quot;Illinois&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:State:nk]' member='&quot;Nebraska&quot;' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[Sample - Superstore].[none:State:nk]</column>
@@ -2999,8 +2999,8 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone forceUpdate='true' h='74000' id='23' param='[com.example.extensions.name].[0.1.0].[http://localhost:8696/index.html]' type-v2='dashboard-object' w='44134' x='533' y='25000'>
-                <add-in add-in-id='com.example.extensions.name' extension-url='http://localhost:8696/index.html' extension-version='0.1.0' instance-id='5CD7844748574119A3E40977E49E3F96'>
+              <zone forceUpdate='true' h='74000' id='24' param='[com.example.extensions.name].[0.1.0].[https://shenzhenyao.github.io/tableau_extension_api/]' type-v2='dashboard-object' w='44134' x='44666' y='25000'>
+                <add-in add-in-id='com.example.extensions.name' extension-url='https://shenzhenyao.github.io/tableau_extension_api/' extension-version='0.1.0' instance-id='6F7B8676DA264435B31396943672B1CE'>
                   <instance-settings />
                   <type-settings>
                     <dashboard />
@@ -3013,8 +3013,8 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone forceUpdate='true' h='74000' id='24' param='[com.example.extensions.name].[0.1.0].[https://shenzhenyao.github.io/tableau_extension_api/]' type-v2='dashboard-object' w='44133' x='44667' y='25000'>
-                <add-in add-in-id='com.example.extensions.name' extension-url='https://shenzhenyao.github.io/tableau_extension_api/' extension-version='0.1.0' instance-id='6F7B8676DA264435B31396943672B1CE'>
+              <zone forceUpdate='true' h='74000' id='27' param='[com.example.extensions.name].[0.1.0].[http://localhost:5500/index.html]' type-v2='dashboard-object' w='44133' x='533' y='25000'>
+                <add-in add-in-id='com.example.extensions.name' extension-url='http://localhost:5500/index.html' extension-version='0.1.0' instance-id='EF8FC247BED14EAFB40FA983FAE67236'>
                   <instance-settings />
                   <type-settings>
                     <dashboard />
@@ -3051,8 +3051,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='26' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='25' param='vert' type-v2='layout-flow' w='98934' x='533' y='1000'>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='34' param='vert' type-v2='layout-flow' w='98934' x='533' y='1000'>
                 <zone h='6500' id='8' mode='dropdown' name='Sheet 1' param='[Sample - Superstore].[none:State:nk]' type-v2='filter' values='cascading' w='10667' x='88800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -3071,8 +3071,8 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='74000' id='23' param='[com.example.extensions.name].[0.1.0].[http://localhost:8696/index.html]' type-v2='dashboard-object' w='44134' x='533' y='25000'>
-                  <add-in add-in-id='com.example.extensions.name' extension-url='http://localhost:8696/index.html' extension-version='0.1.0' instance-id='5CD7844748574119A3E40977E49E3F96'>
+                <zone forceUpdate='true' h='74000' id='27' param='[com.example.extensions.name].[0.1.0].[http://localhost:5500/index.html]' type-v2='dashboard-object' w='44133' x='533' y='25000'>
+                  <add-in add-in-id='com.example.extensions.name' extension-url='http://localhost:5500/index.html' extension-version='0.1.0' instance-id='EF8FC247BED14EAFB40FA983FAE67236'>
                     <instance-settings />
                     <type-settings>
                       <dashboard />
@@ -3086,7 +3086,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='74000' id='24' param='[com.example.extensions.name].[0.1.0].[https://shenzhenyao.github.io/tableau_extension_api/]' type-v2='dashboard-object' w='44133' x='44667' y='25000'>
+                <zone forceUpdate='true' h='74000' id='24' param='[com.example.extensions.name].[0.1.0].[https://shenzhenyao.github.io/tableau_extension_api/]' type-v2='dashboard-object' w='44134' x='44666' y='25000'>
                   <add-in add-in-id='com.example.extensions.name' extension-url='https://shenzhenyao.github.io/tableau_extension_api/' extension-version='0.1.0' instance-id='6F7B8676DA264435B31396943672B1CE'>
                     <instance-settings />
                     <type-settings>
@@ -3163,42 +3163,37 @@
   <thumbnails>
     <thumbnail height='192' name='Dashboard 1' width='192'>
       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
-      AAAHbklEQVR4nO3c2W9T6RnH8Z+Pl8Q4trM4i51kJjFKWAKEQNVeVHND76te9d+s5noqLrpR
-      CjO0MAMdIUjqxEvseDleOF7iuBdtmbqJOiTO4JGe7+cOUPS8R8pXR49fZN9gMBgIMMoZ9wGA
-      cSIAmEYAMI0AYBoBwLShAEr5jJ48eao3mbxefPPye3/Yrbvf/Wwuo79+/ffLPyHwAxoK4G9f
-      f6ud+/e1vrKowsGevvrqqfayRRX2d/X4z4/V6vb1+uVzPXn2QtVSTp9//hvlSlVJUigSV/Uw
-      P5aHAC4q8N9/+OznP9VfHv1BoamEwtFp3bv3E/3x0SMV/vFWn6bX9Kff/1a5TE1L0a6OVn+t
-      jY0NpeZnJEnxeHwsDwCMYugNkN0/UGgirHa7JZ/vP//k08rKsuSf1O3tHS0np5VYv6lUNKBq
-      saD8v98Ar14805u3b5TJlT72MwAX5uMmGJbxKRBMIwCYRgAwjQBgGgHANAKAaQQA04ZughuN
-      xrjOcUo0Gh33EWAAF2EwLfC/f/GudqTHT55qKpFSo/lO15dCqoTWVNv9UpHEJ9q5de3Cww4O
-      DuQ4jgqFglZWVhQIBFSpVNTtdhUMBuW6rlKplFKp1EgPBXyoUztAaCKo48GEWo2Wwv6+FuZn
-      5LbaajSaajZbIw1LJpPqdrsqlUpqNBqanZ2V4zgKBoOq1+sKBAKq1+sjzQDO49QboHxY1NRM
-      TKn5OZXcdzoo1OR0JpVMJhVbSI40LJPJqFaraW1tTUdHRwqHw8rn80omk4pEIur3+4pEIiPN
-      AM5jaAfo9/vjPMt7Pp9PjsMHVPjhDb0BOp3OuM4xxHEcTU5OjvsYMOD0EuyW9fTLZ5qaW1Kz
-      5WljIahqKKXq25dKfHJV19KrFx6WzWblOI6y2awSiYQkqdVqye/3q9vtqtfrKR6Pa3Nz8+JP
-      BJzD2UuwQmo1W5r09zU/P6P6u74iU2Ht7e6ONGxpaUm9Xk/tdludTkfBYFCNRkPtdlue56nT
-      6cjzvJFmAOdx6g1QKRYViUeVnJ9V2fWUO3Tl60wqPBHQne2bIw07ODiQ67qanp5WvV5XNBrV
-      lStXFIvF1G63dXJyoqmpqZFmAOcxtAS32+1xnuU9x3EUCoXGfQwYwE0wTPvem+C1xZhyVU9O
-      p6r44lVtXVu/8LDd3V25rquTkxPdvn1buVxOuVxOi4uLyuVyisVi2tjYUDgcHumhgA91KoDj
-      TkuRuVW16lX5nRPV3IbS62t6+62n8mFeGiEAx3GUTqfluq4Gg4Gazaai0agSiYQmJiYUCAR+
-      NHcRsOFUAL7QFfkHR7p795aqdU+DdxW5dU/pT1OKLVz8I1DpXxdt+Xxex8fHyufz2traUrlc
-      lt/v1/Lysl69eiXP81iE8dEM7QC9Xm+cZ3nP5/MpEDjVJnDphn7LfiwBOI5DAPgozrwJ/t3D
-      h3LmltX1PN26uqxXu3mFWw3t/OqXGuULEPf29lQoFDQ3NyfP85RMJvX8+XNtbm5qf39fjuNo
-      fX1dyeRo/+kO+FCnboKPOy1FVq4pFvBpNhpWtVbR7TvbWlpaGn2Y4+j69eva399/f+O7tbUl
-      n8+nGzduqNFoKJPJjDwH+FBnLsFTgbLSmzdVa3gaeFW1mk0NIkG52aLiywsXHtbv91UqlfTg
-      wQO9fv1avV5PR0dHisfjKhaL2t7eVjAYHOmBgPNgCYZp3ATDtDNvgh9+8YX8c6vqeC3d2VjV
-      N2+zWl+M6bAp/eKzn13a8Eqlomw2q1gspkwmI7/fr3Q6fSn7BvAhzlyCp1ZvKBaU5mJXVKmW
-      tX33vsrliu7f27nU4bOzs4pEIvL5fNra2lK9Xtfe3t6lzgD+nzOX4GjwSFdvfHcT3GrWNDu3
-      oLrrajoyf2nDi8WiarWaZmZmdHh4qJ2dHZZgfFRDOwBfjAVrWIJhGl+9ANMIAKYRAEwjAJhG
-      ADCNAGAaAcA0AoBpBADTCACmEQBMIwCYRgAwjQBgGgHANAKAaQQA0wgAphEATCMAmEYAMI0A
-      YBoBwDQCgGkEANMIAKYRAEwjAJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCYRgAwjQBgGgHA
-      NAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAEwjAJhGADCNAGAaAcA0AoBp
-      BADTCACmEQBMIwCYRgAwjQBgGgHANAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwDQCgGkEANMI
-      AKYRAEwjAJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCYRgAwjQBgGgHANAKAaQQA0wgAphEA
-      TCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAEwjAJhGADCNAGAaAcA0AoBpBADTCACmEQBMIwCY
-      RgAwjQBgGgHANAKAaQQA0wgAphEATCMAmEYAMI0AYBoBwDQCgGkEANMIAKYRAEwjAJhGADCN
-      AGAaAcA0AoBpBADTCACmEQBMIwCYRgAwjQBgGgHANAKAaQQA0wgAphEATCMAmEYAMI0AYBoB
-      wDQCgGkEANMIAKYRAEz7J1BmNvmLFrBMAAAAAElFTkSuQmCC
+      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
+      k8NeBgz0H4KPDnT/6wfKTpxVvXGspamYqvFpVTcea/LcopYX5gY2fGtrS41GQ9FoVN1uV2Nj
+      Y6rVarp48eLAZgDv8+5DsOJq1BtKRkMVCuN61QyVyaa0tbk50OGxWEy1Wk2xWEw7OztaXV1V
+      qcTbKnF6+naASrmszGhOxcLPdHB0rJ2XRwpaSaUSI7p67fJgh4+MKJ1OK5lManFxUfPz89rb
+      4x1lOD09h+CTk5NhruWtSCSieDw+7GXAADfBsPbOm+DbX36p6MScWscNXV2a0zcbzxXrNJSf
+      Oq9ffH79o4c+fPhQYRgqmUyqVCopk8mo3W4rlUppeXlZ2Wz2o2cAH6LvENxpNZSdu6R8TJrI
+      p1WpHuja9evKjhYUtpoDGZpIJJROp/XmzRsVCoW3T4FmZ2cH8vOBD9W3AwTxtHKxfS1euqLq
+      q2N1mxU16k0tfDKt/NRgHoF2u12FYaj5+XkdHBwonU6r1WqpUqno+PiYHQCnpucM0G63h7mW
+      t4Ig0MhIX5vAwPX8lv1UAohEIgSAU/HOm+A/3L6tyMSMXh8f68rijNY3S0o1arrxm19rEP8A
+      cW1tTWEYKpFIKAxDpdNpbWxsKBqNqlAoaGVlZQBTgO/XF0Cn1VBmdlmxdkNvcilVDytauXpN
+      9c1/DWxoIpGQJCWTSa2vr+vWrVtKJpNqNpvcBONU9T0FCuJpZUdCXfr5Zc2cW9D46Lga9bq6
+      mZiOXpQHMrTb7arT6SiXy+nChQuKRqMqFosKgkA3b94cyAzgQ/QcgiuVyjDX8lYQBBofHx/2
+      MmCAm2BY410nsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYA
+      sEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsEYAsPZvtYCdgVHy5NUAAAAASUVORK5CYII=
     </thumbnail>
     <thumbnail height='124' name='Sheet 1' width='144'>
       iVBORw0KGgoAAAANSUhEUgAAAJAAAAB8CAYAAACGwDlBAAAACXBIWXMAAA7DAAAOwwHHb6hk
@@ -3343,7 +3338,7 @@
           <author email='USER@example.com' name='USERNAME' organization='MyCo' website='https://www.example.com' />
           <min-api-version>1.0</min-api-version>
           <source-location>
-            <url>http://localhost:8696/index.html</url>
+            <url>http://localhost:5500/index.html</url>
           </source-location>
           <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAlhJREFUOI2Nkt9vy1EYh5/3bbsvRSySCZbIxI+ZCKsN2TKtSFyIrV2WuRCJuBiJWxfuxCVXbvwFgiEtposgLFJElnbU1SxIZIIRJDKTrdu+53Uhra4mce7Oe57Pcz7JOULFisViwZ+29LAzOSjQYDgz1ZcCvWuXV11MJpN+OS/lm6179teqH0yDqxPTCyKSA8DcDsyOmOprnCaeP7459pdgy969i0LTC3IO/RQMyoHcQN+3cnljW3dNIFC47qDaK3g7BwdTkwBaBELT4ZPOUVWgKl4ZBnjxJPUlMDnTDrp0pmr6RHFeEjjcUUXPDGeSEwDN0Xg8sivxMhJNjGzbHd8PkM3eHRfkrBM5NkcQaY2vUnTlrDIA0NoaX+KLXFFlowr14tvVpqb2MICzmQcKqxvbumv+NAhZGCCIPwEw6QWXKYRL/VUXO0+rAUJiPwAk5MIlgVfwPjjHLCL1APmHN94ZdqeYN+NW/mn6I4BvwQYchcLnwFhJMDiYmlRxAzjpKWZkYkUCcZ2I61wi37tLbYyjiN0fHk5Oz3nGSLSzBbNHCF35R7f6K1/hN9PRhek11FrymfQQQKB4+Gl05P2qNRtmETlXW7e+b2z01dfycGNbfFMAbqNyKp9Jp4rzOT8RYFs0njJkc2iqsCObvTsOsDWWqA5C1uFy+Uz/oXJeKwVT4h0RmPUXhi79vuC0Ku6yOffTK3g9lfxfDQAisY516sg5kfOCiJk7HoLt2cf9b/9LANAc7dznm98PagG1fUOZ9IP5uMB8Q4CPoyNvausapkTt3rNMuvdf3C/o6+czhtdwmwAAAABJRU5ErkJggg==</icon>
         </dashboard-extension>

@@ -42,8 +42,9 @@ click on these links to goto these pages. THe web page will show the Console of 
 
 D. Other notes.
 
-1. The tableau.extensions.1.latest.js is the lib provided by Tableau, just have to download it (or maybe it is available on cdns, as d3 or jquery libraries)
+1. The tableau.extensions.1.latest.js is the lib provided by Tableau, just have to download it (or maybe it is available on cdns, as d3 or jquery libraries, https://github.com/tableau/extensions-api. )
 
 2. The main.js does most of the job to listen to: a) get the summary data from tableau (on the current dashboard); b) listen to filter changes, etc.
     Pay attention to the async settings appropirately (async is not always right...)
 
+3. the .trex files have to be named as .trex files as .trex is the only extension name recogized when adding extension objects, although .trex is just xml files! 
