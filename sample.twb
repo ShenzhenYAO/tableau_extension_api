@@ -3,13 +3,19 @@
 <!-- build 20213.21.1112.1434                               -->
 <workbook original-version='18.1' source-build='2021.3.4 (20213.21.1112.1434)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <CascadingFilters />
+    <Extensions />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
+    <ZoneBackgroundTransparency />
   </document-format-change-manifest>
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
@@ -2958,8 +2964,8 @@
             </encodings>
             <style>
               <style-rule element='mark'>
-                <format attr='mark-labels-show' value='true' />
                 <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
               </style-rule>
             </style>
           </pane>
@@ -2970,6 +2976,116 @@
       <simple-id uuid='{211F6508-A49F-4629-AEBF-0D51FEF07E6F}' />
     </worksheet>
   </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource name='Sample - Superstore' />
+      </datasources>
+      <datasource-dependencies datasource='Sample - Superstore'>
+        <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='5' type-v2='layout-basic' w='82400' x='800' y='1000'>
+              <zone h='49000' id='3' name='Sheet 1' w='82400' x='800' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone forceUpdate='true' h='49000' id='9' param='[com.example.extensions.name].[0.1.0].[http://localhost:5500/index.html]' type-v2='dashboard-object' w='82400' x='800' y='50000'>
+                <add-in add-in-id='com.example.extensions.name' extension-url='http://localhost:5500/index.html' extension-version='0.1.0' instance-id='CAA9670CA0B2440884007D4418B47077'>
+                  <instance-settings />
+                  <type-settings>
+                    <dashboard />
+                  </type-settings>
+                </add-in>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='98000' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='16000' x='83200' y='1000'>
+              <zone h='6500' id='8' mode='dropdown' name='Sheet 1' param='[Sample - Superstore].[none:State:nk]' type-v2='filter' values='cascading' w='16000' x='83200' y='1000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone h='6500' id='8' mode='dropdown' name='Sheet 1' param='[Sample - Superstore].[none:State:nk]' type-v2='filter' values='cascading' w='16000' x='83200' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49000' id='3' is-fixed='true' name='Sheet 1' w='82400' x='800' y='1000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='49000' id='9' param='[com.example.extensions.name].[0.1.0].[http://localhost:5500/index.html]' type-v2='dashboard-object' w='82400' x='800' y='50000'>
+                  <add-in add-in-id='com.example.extensions.name' extension-url='http://localhost:5500/index.html' extension-version='0.1.0' instance-id='CAA9670CA0B2440884007D4418B47077'>
+                    <instance-settings />
+                    <type-settings>
+                      <dashboard />
+                    </type-settings>
+                  </add-in>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9186900C-56AC-46A1-883B-55045B01B315}' />
+    </dashboard>
+  </dashboards>
   <windows source-height='30'>
     <window class='worksheet' maximized='true' name='Sheet 1'>
       <cards>
@@ -2991,6 +3107,11 @@
             <card type='title' />
           </strip>
         </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='dropdown' param='[Sample - Superstore].[none:State:nk]' type='filter' values='cascading' />
+          </strip>
+        </edge>
       </cards>
       <viewpoint>
         <highlight>
@@ -3002,8 +3123,49 @@
       </viewpoint>
       <simple-id uuid='{5EF2497B-4704-4E26-9764-833A21E207DD}' />
     </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{7B1BDEE6-0FBE-4274-A99B-04B4F74A1D51}' />
+    </window>
   </windows>
   <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAGRElEQVR4nO3cTVNb5x2G8fscCyEBAiu8GAQSLzbjtEOMSTpZtNOv0OmqG2/8DTsZL7xI
+      x4u0tauYxEkdjN3W4MgEMMKSQEhIIKxsGloF25lJj1Fn7uu3A0Y8f83omnMePYKg3W63BZgK
+      uz0A0E0EAGsEAGsEAGsEAGsdARS3Crp/f1lPC1t6uPLoJx+8t7/3n8duFvTVN4+jnxB4hzoC
+      +PqbJ1r66CPNTl3S9sYzffnlsp59t6Pt5+vK/y2v2tGJ/vno77r/4KHKxU198skftVksS5Li
+      /UMqv9jqypMAfq7Yf3/x2998rM/v/UXxgRElUxf14Ye/0l/v3dP2t2uanpvR3T//SZuFisZT
+      R9rN/kHz8/PKjKYlSUNDQ115AsD/ouMK8N3zDcV7k2o0agqCH34UaGpqUrqQ0AeLS5qcuKiR
+      2V8qk4qpvLOtrX9fAVYfPtDTtacqbBbP+zkAP1vASTCc8S4QrBEArBEArBEArBEArBEArBEA
+      rHWcBFer1W7NcUYqler2CDDAQRisxX78jXplV/n7yxoYyah6UNf743GV4jOqrH+h/pGclhau
+      RjrA3bt3deXKFaXTafX09ET6u4GfciaAeG+PWu1e1ao1JWOvNDaa1vpmQ9XqgdqJWqSLHxwc
+      aHV1VYlEQisrKwrDUNPT05qZmYl0HeBNzgTw8sWOBtKDyowOq7hX18Z2RWEzoYmJCQ2OTUS6
+      eKPR0M2bN7W2tqZWq6VMJqNWqxXpGsDbdOwBTk5OujnLqSAIFIa8QYV3r+MK0Gw2uzVHhzAM
+      lUgkuj0GDJzdBO+91PIXDzQwPK6D2qHmx3pUjmdUXnukkdxlXZ3LRjpAPp/X3Nyc0um0YrEz
+      4wDv1Os3wYqrdlBTItbW6OiYvt06Uf9AUs/W1yMNoFar6cmTJ+rt7dXjx48VBIGy2axmZ2cj
+      WwN4mzM32qWdHfUPpTSdHVdP30VtvthT0Kwq2RvTtcWlSBdvNBq6ceOGUqmU+vr6eOHj3HVs
+      ghuNRjdnORWGoeLxeLfHgAFOgmHttSfBdz79VBeGs2oe1nRtPquVtQ31tGoaHJvVrz++HukA
+      t27d0uLiovb39zUzM6NSqaRcLhfpGsCbnNkDtJo1DWR/ocEeaXiwT6XySy1ev66BoVGdNOuR
+      Ll4sFnV8fKxCoaB4PK58Pq/x8fFI1wDe5swtULVc1D/WCrp85bLK+4dq10tqXujXUPyVBsey
+      GkhE93mder2uZDKpcrmsnZ0dTU1NcQXAueoI4Pj4uJuznAqCgDMBnIuOV9n/SwBhGBIAzsVr
+      T4I/u3NH4fCkjg4PtXB5UqvrW0rWqlr6/e8U9T9AvH37thYWFlStVpXL5VSpVLgFwrl57Sa4
+      f+qqBmOB3kslVa6U9MG1xXeyOd3d3dXR0ZE2NjYUj8e1vLysS5cuRb4O8CYde4B6va5qZVf/
+      Wn+uubk5VaqHah+W1Qz79ar+Uv3vTSo3ORbZ4j9sgiuViorFojKZzOkVgA/D4Tx0BFAqlbo5
+      y6kgCJROp7s9BgxwEgxr/NUJrBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEA
+      rBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArBEArH0PMIGaf+05tmEAAAAA
+      SUVORK5CYII=
+    </thumbnail>
     <thumbnail height='104' name='Sheet 1' width='144'>
       iVBORw0KGgoAAAANSUhEUgAAAJAAAABoCAYAAAAeh3nMAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAQ4UlEQVR4nO2deVSUR7qHn4AQBcejIkZDUMOoKBITpRFcAHEhV9HEGJcJYJTEJV7jjRK8
@@ -3089,4 +3251,31 @@
       yub3/wHUIZMbM5psBwAAAABJRU5ErkJggg==
     </thumbnail>
   </thumbnails>
+  <referenced-extensions>
+    <referenced-extension>
+      <manifest manifest-version='0.1'>
+        <dashboard-extension extension-version='0.1.0' id='com.example.extensions.name'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>Extension Description</description>
+          <author email='USER@example.com' name='USERNAME' organization='MyCo' website='https://www.example.com' />
+          <min-api-version>1.0</min-api-version>
+          <source-location>
+            <url>http://localhost:5500/index.html</url>
+          </source-location>
+          <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAlhJREFUOI2Nkt9vy1EYh5/3bbsvRSySCZbIxI+ZCKsN2TKtSFyIrV2WuRCJuBiJWxfuxCVXbvwFgiEtposgLFJElnbU1SxIZIIRJDKTrdu+53Uhra4mce7Oe57Pcz7JOULFisViwZ+29LAzOSjQYDgz1ZcCvWuXV11MJpN+OS/lm6179teqH0yDqxPTCyKSA8DcDsyOmOprnCaeP7459pdgy969i0LTC3IO/RQMyoHcQN+3cnljW3dNIFC47qDaK3g7BwdTkwBaBELT4ZPOUVWgKl4ZBnjxJPUlMDnTDrp0pmr6RHFeEjjcUUXPDGeSEwDN0Xg8sivxMhJNjGzbHd8PkM3eHRfkrBM5NkcQaY2vUnTlrDIA0NoaX+KLXFFlowr14tvVpqb2MICzmQcKqxvbumv+NAhZGCCIPwEw6QWXKYRL/VUXO0+rAUJiPwAk5MIlgVfwPjjHLCL1APmHN94ZdqeYN+NW/mn6I4BvwQYchcLnwFhJMDiYmlRxAzjpKWZkYkUCcZ2I61wi37tLbYyjiN0fHk5Oz3nGSLSzBbNHCF35R7f6K1/hN9PRhek11FrymfQQQKB4+Gl05P2qNRtmETlXW7e+b2z01dfycGNbfFMAbqNyKp9Jp4rzOT8RYFs0njJkc2iqsCObvTsOsDWWqA5C1uFy+Uz/oXJeKwVT4h0RmPUXhi79vuC0Ku6yOffTK3g9lfxfDQAisY516sg5kfOCiJk7HoLt2cf9b/9LANAc7dznm98PagG1fUOZ9IP5uMB8Q4CPoyNvausapkTt3rNMuvdf3C/o6+czhtdwmwAAAABJRU5ErkJggg==</icon>
+        </dashboard-extension>
+        <resources>
+          <resource id='name'>
+            <text locale='de_DE'>datasources</text>
+            <text locale='en_US'>datasources</text>
+            <text locale='fr_BE'>datasources</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='Dashboard 1' />
+      </referenced-views>
+    </referenced-extension>
+  </referenced-extensions>
 </workbook>
